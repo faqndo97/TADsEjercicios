@@ -15,6 +15,14 @@ finalmente mostrar en la salida estándar (pantalla) el resultado.
 */
 #include <stdio.h>
 
+/*
+Calcula el promedio de las 5 calificaciones
+ int cal1 -> Calificacion 1
+ int cal2 -> Calificacion 2 
+ int cal3 -> Calificacion 3 
+ int cal4 -> Calificacion 4 
+ int cal5 -> Calificacion 5
+*/
 int PromClase(int cal1, int cal2, int cal3, int cal4, int cal5){
   return (cal1 + cal2 + cal3 + cal4 + cal5) / 5;
 };

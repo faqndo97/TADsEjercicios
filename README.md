@@ -7,7 +7,7 @@ Aquí podrás encontrar diferentes ejercicios de Tipos Abstractos de Datos reali
 **Documentación**
 -------------
 
-Para poder ejecutar estos programar, se debe tener previamente instalado
+Para poder ejecutar estos programas, se debe tener previamente instalado
 
 Aplicación  | Versión
 ----------- | --------
@@ -27,4 +27,3 @@ Para usar el asistente solo ejecutar el comando
 ```
   ruby asistente.rb
 ```
-----------

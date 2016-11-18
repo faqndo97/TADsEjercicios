@@ -1,12 +1,10 @@
 **TADs Ejercicios**
 ===================
---------
-Aqui podras encotrar diferentes ejercicios de Tipos Abstractos de Datos realizados en **C** (una combinacion de **C** con algunas funcionalidades de **C++**)
-
-----------
+Aquí podrás encontrar diferentes ejercicios de Tipos Abstractos de Datos realizados en **C** (una combinación de **C** con algunas funcionalidades de **C++**)
 
 
-**Documentacion**
+
+**Documentación**
 -------------
 
 Para poder ejecutar estos programar, se debe tener previamente instalado
@@ -18,7 +16,7 @@ Ruby        | 2.3.0
 
 > **Nota:**
 
-> - Se necesita instalar la gema [**colorize**](https://github.com/fazibear/colorize) previamente para el asistente de ejecucion y compilacion.
+> - Se necesita instalar la gema [**colorize**](https://github.com/fazibear/colorize) previamente para el asistente de  ejecución y compilación.
 
 Para instalar la gema **colorize** ejecutar el siguiente comando:
 ```

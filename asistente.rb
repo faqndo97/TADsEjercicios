@@ -1,5 +1,4 @@
 require 'fileutils'
-require 'colorize'
 
 # Compilar el programa
 # pro -> Nombre del Programa
@@ -49,9 +48,7 @@ def Principal(opcion, programa, practico)
     when '1'
       Compilar(programa)
     when '2'
-      Dir.chdir('ejecutables') do
-        Ejecutar(programa)
-      end
+      Dir.chdir('ejecutables')
     when '3'
       CarpetaEjecutables()
       MoverEjecutable(Dir.pwd, programa)
@@ -87,7 +84,7 @@ end
 definiciones = Definiciones()
 # Guardamos la opcion a realizar
 opcion = Menu()
-while opcion != '5'
+while opcion == '5'
   # Si desea cambiar de archivo limpiamos la consola y esperamos a que nos diga
   # cual es el archivo esperado
   if opcion == '4'
@@ -99,4 +96,4 @@ while opcion != '5'
   opcion = Menu()
 end
 # Limiamos la consola al finalizar el programa
-system 'clear'
+system 'cls'
